@@ -1,14 +1,18 @@
 import React from 'react'
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
-function Error() {
-  return (
-    <div>
-        <h1>404 Not Found</h1>
-        <p>The page you are looking for does not exist.</p>
-        <p>Please check the URL or return to the homepage.</p>
-      
-    </div>
-  )
-}
+
+
+  const Error = () => {
+    return (
+      <DotLottieReact
+        src="https://lottie.host/aa9367f1-8710-4431-94db-67b561cab347/rGpSfyHX4b.lottie"
+        loop
+        autoplay
+      />
+    );
+  };
+
+
 
 export default Error
