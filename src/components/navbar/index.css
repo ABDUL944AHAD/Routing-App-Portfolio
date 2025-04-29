@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background: url('https: //images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk2MC1uaW5nLTMwLmpwZw.jpg');
+    overflow: hidden;
+}
+.main{
+    background-color: #0D6EFD;
+    
+}
+
+
+.main .navbar-brand,
+.main .nav-link,
+.main .dropdown-item {
+    color: white !important;
+    /* Set text color to white */
+}
+
+.main .nav-link:hover,
+.main .dropdown-item:hover {
+    color: #ddd !important;
+    /* Optional: Add a hover effect */
+}
+.main .nav-link:hover,
+.main .dropdown-item:hover {
+    color: #ddd !important;
+    /* Optional: Add a hover effect */
+}
+
+/* Make the hamburger icon white */
+.main .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    
+}
+
+/* Make the border of the hamburger button white */
+.navbar-toggler{
+    color: white !important;
+}
+.headings {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.headingContainer{
+    /* background-image: url('https: //images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cG9ydGZvbGlvfGVufDB8fDB8fHww'); */
+    font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color:#0D6EFD ;
+        padding: 6px;
+        margin-top: 120px;
+        margin-left: 60px;
+        margin-bottom: 20px;
+        
+    
+        
+}
+img{
+    float:right;
+    margin-right: 20px;
+    margin-top: -240px; 
+    
+    height: 420px;
+
+     /* change the margin top design for responsive */
+}
+
+/* From Uiverse.io by SujitAdroja */
+ #btn { 
+    color: #0D6EFD ;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid #0D6EFD;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+    margin-top: 60px;
+        margin-left: 60px;
+      
+       
+
+} 
+
+#btn:hover {
+    color: white;
+}
+ 
+#btn::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: -40px;
+    transform: skewX(45deg);
+    background-color: #0D6EFD;
+    z-index: -1;
+    transition: all 1s;
+}
+
+#btn:hover::before {
+    width: 160%;
+} 
+
