@@ -1,0 +1,14 @@
+{
+  "name": "Personel Portfolio",
+  "theme_color": "#9a8354",
+  "background_color": "#524e4e",
+  "short_name": "portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "display_override": ["standalone"],
+  "scope": "/",
+  "orientation": "portrait",
+  "id": "/",
+  "description": "Its a portfolio app with routing and many more",
+  "categories": ["education", "navigation", "personalization"]
+}
