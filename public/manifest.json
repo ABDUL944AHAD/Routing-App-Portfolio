@@ -13,12 +13,12 @@
   "categories": ["education", "navigation", "personalization"],
   "icons": [
     {
-      "src": "/ s/icons/icon1.png",
+      "src": "/public/images/icons/icon1.ico",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "/assets/icons/icon2.png",
+      "src": "/public/images/icons/icon2.ico",
       "sizes": "512x512",
       "type": "image/png"
     }
