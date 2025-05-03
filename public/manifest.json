@@ -10,5 +10,17 @@
   "orientation": "portrait",
   "id": "/",
   "description": "Its a portfolio app with routing and many more",
-  "categories": ["education", "navigation", "personalization"]
+  "categories": ["education", "navigation", "personalization"],
+  "icons": [
+    {
+      "src": "/ s/icons/icon1.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/icon2.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
