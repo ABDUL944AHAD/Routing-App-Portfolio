@@ -8,6 +8,7 @@ import Contact from './components/contact';
 import Error from './components/error';
 import Navbarof from './components/navbar';
 import './App.css';
+import './index.css'
 
 function App() {
   return (

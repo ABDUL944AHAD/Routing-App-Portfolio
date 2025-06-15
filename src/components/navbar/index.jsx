@@ -15,8 +15,8 @@ function Navbarof() {
                         <Nav className="mx-auto">
                             <Nav.Link as={Link} to="/" className='headings'>Home</Nav.Link>
                             <Nav.Link as={Link} to="/projects" className='headings'>Projects</Nav.Link>
-                            <Nav.Link as={Link} to="/about" className='headings'>About Me</Nav.Link>
-                            <Nav.Link as={Link} to="/contact" className='headings'>Contact Me</Nav.Link>
+                            <Nav.Link as={Link} to="/about" className='headings' >About Me</Nav.Link>
+                            <Nav.Link as={Link} to="/contact" className='headings' >Contact Me</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

@@ -114,3 +114,24 @@ img {
 #btn:hover::before {
     width: 160%;
 }
+
+
+
+@media  (min-width:520px) {
+    img {
+        
+        margin-right: 20px;
+        margin-top: 1440px;
+
+        /* change the margin top design for responsive */
+    }
+
+    .headingContainer {
+        margin-left: 20px;
+    }
+
+    #btn {
+        margin-left: 20px;
+    }
+}
+    
